@@ -8,6 +8,6 @@ app.get('/addUser', (req, res) => {
   res.send('listening on proxy');
 });
 
-app.use(express.static('react_server_app/build/static/'));
+app.use(express.static(__dirname + '/react_server_app/build/'));
 
 app.listen(8080, () => {});
