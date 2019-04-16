@@ -1,0 +1,3 @@
+[submodule "react_server_app"]
+	path = react_server_app
+	url = https://github.com/anupingale/react_server_app.git

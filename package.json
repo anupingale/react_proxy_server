@@ -1,0 +1,16 @@
+{
+  "name": "express-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd react_server_app && npm start && cd .. && node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react-scripts": "^2.1.8"
+  }
+}
